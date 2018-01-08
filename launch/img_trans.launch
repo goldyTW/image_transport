@@ -1,0 +1,6 @@
+<launch>
+	<node name="video_feed_front" pkg="image_transport" type="video_feed_front.cpp"  />
+	<node name="video_feed_right" pkg="image_transport" type="video_feed_right.cpp"  />
+	<node name="video_feed_upstream" pkg="image_transport" type="video_feed_upstream.cpp"  />
+	<node name="ground_monitor" pkg="image_transport" type="ground_monitor.cpp"  />
+</launch>
